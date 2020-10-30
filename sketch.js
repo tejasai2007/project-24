@@ -60,9 +60,13 @@ function draw() {
   rectMode(CENTER);
   
 
-	keyPressed();
+  keyPressed();
 
   ground.display();
+  bin.display();
+  bin2.display();
+  bin4.display();
+  ball.display();
   
   drawSprites();
  
